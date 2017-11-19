@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<webcrawler>
+    <noofseed>3</noofseed>
+<seed seedurl="https://www.google.com">
+        <noofurl>4</noofurl>
+        <urllist>
+            <url>https://www.google.com</url>
+            <url>http://schema.org/WebPage</url>
+            <url>https://www.google.co.in/imghp?hl=en&amp;tab=wi</url>
+            <url>http://www.w3.org/1999/xhtml</url>
+        </urllist>
+    </seed>
+<seed seedurl="https://stackoverflow.com/questions/11087163/how-to-get-url-html-contents-to-string-in-java">
+        <noofurl>2</noofurl>
+        <urllist>
+            <url>https://stackoverflow.com/questions/11087163/how-to-get-url-html-contents-to-string-in-java</url>
+            <url>http://schema.org/QAPage</url>
+        </urllist>
+    </seed>
+<seed seedurl="http://192.168.1.1/cgi-bin/webproc?getpage=html/index.html&amp;var:menu=status&amp;var:page=deviceinfo">
+        <noofurl>2</noofurl>
+        <urllist>
+            <url>http://192.168.1.1/cgi-bin/webproc?getpage=html/index.html&amp;var:menu=status&amp;var:page=deviceinfo</url>
+            <url>http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd</url>
+        </urllist>
+    </seed>
+</webcrawler>
