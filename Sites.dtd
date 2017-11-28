@@ -1,0 +1,11 @@
+<!DOCTYPE Sites
+[
+<!ELEMENT webcrawler (noofseed, seed+)>
+<!ELEMENT noofseed (#PCDATA)>
+<!ELEMENT seed (noofurl, urllist)>
+<!ELEMENT noofurl (#PCDATA)>
+<!ELEMENT urllist (url+)>
+<!ELEMENT url (#PCDATA)>
+
+<!ATTLIST seed seedurl CDATA >
+]>
